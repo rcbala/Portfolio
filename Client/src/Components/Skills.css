@@ -1,0 +1,31 @@
+.skill-section{
+    width: 100%;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0, 0,0, 0.22);
+    scroll-behavior: smooth;
+
+}
+.my-skill{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    color: #e0b50f;
+}
+.skills-title{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: #e0b50f;}
+.skill-tech{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: rgba(60, 120, 210, 0.99);
+}
+
+
+
+

@@ -1,0 +1,37 @@
+
+
+
+.Typewriter{
+    color: #e0b50f;
+}
+.home-title{
+    font-size: 6ch;
+    font-weight: bolder;
+    color:black;
+    
+}
+.span-name{
+    color: rgb(133, 186, 234);
+    font-size: xx-large;
+}
+.social-links{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+
+}
+.social-link1{  
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.social-link2{   
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+.social-link3{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+.inner {
+  overflow: hidden;
+}
+.inner img {
+  transition: all 1.5s ease;
+}
+.inner:hover img {
+  transform: scale(1.5);
+}
+.projects-card {
+  transition: all 0.3s;
+}
+.projects-card:hover {
+  transform: scale(1.15);
+}
+.projects-buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: right;
+  /* background-color: aqua; */
+}
+.projects-buttons1 {
+  margin-right: 10px;
+  /* color: black; */
+}
+.project-heading{
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      margin-bottom: 50px;
+       color: #f6c607;
+}
+.project-title{
+  font-family: "Poppins", sans-serif;
+  font-weight:bold;
+  
+}
+.project-description{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(45, 43, 43);
+}
+
+
+
