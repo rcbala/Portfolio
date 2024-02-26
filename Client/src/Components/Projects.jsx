@@ -16,7 +16,7 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="project1.png" />
+                  <Card.Img variant="top" src="./Images/project1.png" />
                 </div>
 
                 <Card.Body>
@@ -57,7 +57,7 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="project2.png" />
+                  <Card.Img variant="top" src="./Images/project2.png" />
                 </div>
 
                 <Card.Body>
@@ -98,7 +98,7 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="project3.png" />
+                  <Card.Img variant="top" src="./Images/project3.png" />
                 </div>
 
                 <Card.Body>

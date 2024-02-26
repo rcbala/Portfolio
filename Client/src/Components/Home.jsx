@@ -72,7 +72,7 @@ const Home = () => {
         <Col md={4} className="text-center position-relative mt-5">
           <Fade direction="right">
             <img
-              src="./public/IMG_1798.jpg"
+              src="./Images/IMG_1798.jpg"
               className=" img-fluid rounded-circle "
               width={450}
               height={500}
