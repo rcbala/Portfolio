@@ -12,7 +12,7 @@ const About = () => {
               <Col md={4} className="text-center position-relative mt-4">
                  <Fade direction="left">
           <img
-            src="./Images/IMG_1798.jpg"
+            src="./Images/IMG_1798.JPG"
             className=" img-fluid rounded-circle"  
             width={450}
             height={500}

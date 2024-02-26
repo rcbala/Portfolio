@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import resume from "../../src/assets/Resume.pdf";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-// import Zoom from 'react-reveal/Zoom';
 import { Fade } from "react-awesome-reveal";
 
 import "./Home.css";
@@ -72,7 +71,7 @@ const Home = () => {
         <Col md={4} className="text-center position-relative mt-5">
           <Fade direction="right">
             <img
-              src="./Images/IMG_1798.jpg"
+              src="./images/IMG_1798.JPG"
               className=" img-fluid rounded-circle "
               width={450}
               height={500}
