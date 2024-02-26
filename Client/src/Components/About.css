@@ -3,7 +3,9 @@
 }
 .About-me{
     margin-bottom: 20px;
-    color: aliceblue;
+    color: #e0b50f;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
 }
 .About-description{
  font-weight: 500;

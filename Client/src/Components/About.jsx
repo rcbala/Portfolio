@@ -3,23 +3,26 @@ import { Row, Col, Button } from "react-bootstrap";
 import './About.css'
 import { Link } from 'react-router-dom';
 import Contact from './Contact';
+import {Fade} from "react-awesome-reveal"
+
 const About = () => {
   return (
     <div className=" container home  mt-4">
       <Row className="justify-content-center align-items-center">
               <Col md={4} className="text-center position-relative mt-4">
-                 
+                 <Fade direction="left">
           <img
             src="./public/IMG_1798.jpg"
             className=" img-fluid rounded-circle"  
             width={450}
             height={500}
                       ></img>
-                      
+                </Fade>      
               </Col>
-               <Col md={6} className="col-md-6 text-left  mb-4 mb-md-0 ">
+        <Col md={6} className="col-md-6 text-left  mb-4 mb-md-0 ">
+           <Fade direction="right">
           <div className='About-content'>
-           <h2 className='About-me'>About Me:</h2>
+           <h2 className='About-me'>~/About Me:</h2>
           <p className='About-description'>
             I am a passionate and dedicated software developer with a strong background in web development. 
             My journey in programming began several years ago, and since then, I have been constantly learning 
@@ -37,7 +40,8 @@ const About = () => {
           </p>
         
                         <Link to="/contact" className='btn btn-primary'>Let's Talk</Link>
-                  </div>
+            </div>
+            </Fade>
                   </Col>
        
       </Row>

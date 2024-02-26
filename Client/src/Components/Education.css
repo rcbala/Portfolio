@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Align items in the center horizontally */
   position: relative;
   max-width: 1200px;
 }
@@ -37,7 +36,8 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: black;
+
+  background-color: #e0b50f;
 }
 
 .timeline-content {
@@ -54,21 +54,21 @@
   margin-top: 0;
   background-color: #f9f9f9;
   font-weight: 600;
-  font-variant: small-caps;  
+  font-variant: small-caps;
   font-family: "Poppins", sans-serif;
 }
 
 .timeline-content p {
   margin-bottom: 0;
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 
   background-color: #f9f9f9;
 }
-.education-tittle{
-    margin-bottom: 50px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    color: #e0b50f;
+.education-tittle {
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: #e0b50f;
 }
 
 @media (max-width: 767px) {

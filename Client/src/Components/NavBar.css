@@ -1,27 +1,21 @@
-
-
 .navbar-link {
-    display: flex;
-    flex-direction: column;
-   font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    color:rgb(17, 16, 16);
-    
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  color: rgb(17, 16, 16);
 }
-.navbar-link1{
-    color: rgb(66, 73, 80);
-        font-weight: 800;
-        font-size: xx-large;
-        
-      
+.navbar-link1 {
+  color: rgb(66, 73, 80);
+  font-weight: 800;
+  font-size: xx-large;
 }
 
-
-.navbar-link:hover{
-    color: #881717;
-    transition: 0.3s;
+.navbar-link:hover {
+  color: #881717;
+  transition: 0.3s;
 }
 .navbar-link1:hover {
-    color: #ebcdcd;
-    transition: 0.3s;
+  color: #ebcdcd;
+  transition: 0.3s;
 }
