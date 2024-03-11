@@ -1,9 +1,9 @@
 import React from 'react';
-import { Row, Col, Button } from "react-bootstrap";
-import './About.css'
+import { Row, Col } from "react-bootstrap";
+import './About.css';
 import { Link } from 'react-router-dom';
-import Contact from './Contact';
-import {Fade} from "react-awesome-reveal"
+import { Fade } from "react-awesome-reveal";
+import bala from "../Images/bala.png"
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
               <Col md={4} className="text-center position-relative mt-4">
                  <Fade direction="left">
           <img
-            src="./Images/IMG_1798.JPG"
+            src={bala}
             className=" img-fluid rounded-circle"  
             width={450}
             height={500}

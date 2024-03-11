@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import resume from "../../src/assets/Resume.pdf";
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import bala from "../Images/bala.png"
 import { Fade } from "react-awesome-reveal";
 
 import "./Home.css";
@@ -17,7 +18,7 @@ const Home = () => {
             <div>
               <h4 className="home-title">
                 Hi <br />
-                I'm a <span className="span-name">Balasubramani</span>{" "}
+                I'm a <span className="span-name">Balasubramani</span>
               </h4>
               <h2 className="Typewriter">
                 <Typewriter
@@ -71,7 +72,7 @@ const Home = () => {
         <Col md={4} className="text-center position-relative mt-5">
           <Fade direction="right">
             <img
-              src="./images/IMG_1798.JPG"
+              src={bala}
               className=" img-fluid rounded-circle "
               width={450}
               height={500}

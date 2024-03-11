@@ -2,6 +2,9 @@ import React from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import "./Projects.css";
 import { Fade } from "react-awesome-reveal";
+import project1 from "../Images/project1.png"
+import project2 from "../Images/project2.png"
+import project3 from "../Images/project3.png"
 
 const Projects = () => {
   return (
@@ -16,12 +19,12 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="./Images/project1.png" />
+                  <Card.Img variant="top" src={project1} />
                 </div>
 
                 <Card.Body>
                   <Card.Title className="project-title">
-                    TRAVEL LANDING PAGE{" "}
+                    TRAVEL LANDING PAGE
                   </Card.Title>
                   <Card.Text className="project-description">
                     Web Application Made by Travelers user friendly, technology
@@ -57,7 +60,7 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="./Images/project2.png" />
+                  <Card.Img variant="top" src={project2} />
                 </div>
 
                 <Card.Body>
@@ -98,7 +101,7 @@ const Projects = () => {
                 style={{ width: "20rem" }}
               >
                 <div className="inner">
-                  <Card.Img variant="top" src="./Images/project3.png" />
+                  <Card.Img variant="top" src={project3} />
                 </div>
 
                 <Card.Body>

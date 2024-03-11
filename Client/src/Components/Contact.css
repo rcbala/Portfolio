@@ -1,48 +1,37 @@
-
-
 .contact-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-container {
-    width: 100%;
-    height: auto;
-    margin: 60px ;
-    padding: 20px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
-
+  width: 100%;
+  height: auto;
+  margin: 60px;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .form-container {
-    flex: 1;
-
+  flex: 1;
 }
 
 .image-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  height: auto;
 }
-
-
 
 .input-label1 {
-    padding-top: 20px;
-    
+  padding-top: 20px;
 }
 
-
-
 .error {
-    color: #dc3545;
-    
+  color: #dc3545;
 }
