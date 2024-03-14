@@ -19,3 +19,10 @@
   color: #ebcdcd;
   transition: 0.3s;
 }
+.active{
+  visibility: visible;
+}
+.inactive{
+  visibility: hidden;
+  height:0 ;
+}
