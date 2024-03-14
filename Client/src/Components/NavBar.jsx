@@ -1,40 +1,32 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
 const NavBar = () => {
-  const menuref = useRef();
-
-  const [Open, setOpen] = useState(false);
-  useEffect(() => {
-    const handler = (e) => {
-      if (!menuref.current.contains(e.target)) {
-        setOpen(false);
-        // console.log(menuref.current);
-      }
-    }
-    document.addEventListener("mousedown", handler);
-
-    return () => {
-      document.removeEventListener("mousedown",handler)
-    }
-  })
+  
+  // const [Open, setOpen] = useState("");
+  // useEffect(() => {
+  //   const handler = () => {
+  //   setOpen(false);
+      
+  //   }
+  //   document.addEventListener("mousedown",handler)
+  // })
   return (
     <Navbar bg="transparent" expand="lg" variant="" className="navbar">
       <Container>
         <Navbar.Brand className="navbar-link1">PORTFOLIO</Navbar.Brand>
 
-        <Navbar.Toggle onClick={()=>{setOpen(!Open)}} aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle  aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse
           id="basic-navbar-nav"
-          className={`justify-content-center ${Open ? "active" : "inactive"}`}
-           
+          className="justify-content-center"
 
         >
-          <Nav className="ml-auto" ref={menuref}>
+          <Nav className="ml-auto">
             <Nav.Link as={Link} to="/" className="navbar-link">
               HOME
             </Nav.Link>
