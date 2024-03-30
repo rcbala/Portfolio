@@ -124,7 +124,7 @@ const Projects = () => {
                     </Button>
                     <Button
                       variant="success"
-                      href="https://celebrated-cupcake-a0522c.netlify.app"
+                      href="https://technologyblog-app.netlify.app"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
